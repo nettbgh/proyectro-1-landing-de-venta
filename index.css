@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 2.5em;}
+h2{ font-size: 3.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 3px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(240, 9, 116);
+}
+
+button:hover{
+    background-color: rgb(240, 80, 154);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color:rgb(240, 9, 116);
+}
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 10;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(236, 14, 151);
+    font-size: 1.4em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(231, 7, 119);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 96vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://scontent.fmex11-4.fna.fbcdn.net/v/t1.15752-9/274467394_355097243158287_255829297467531217_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeFR7h23H9ySYiwpCMgAoN5BYMRoeU53l0hgxGh5TneXSCIrq-mUMcCZkaJYV3d-VBE4TqQdZ2BNYOdDtWwoVh8z&_nc_ohc=gDRx3OrFGUMAX-eLopq&_nc_ht=scontent.fmex11-4.fna&oh=03_AVLBvLbTmAT99bndy_8HcmsU8w7-dkb49P2UUlelRg-8CQ&oe=6250D16D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1{
+    color: rgb(232, 248, 91);
+    font-family: Times New Roman;
+}
+
+#hero button{
+    font-size: 1.25em;
+}
+
+#somos-botella-al-mar .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-productos{
+    background-color: rgb(231, 7, 119);
+    color: white;
+    text-align: center;
+    font-family: didot;
+}
+
+#nuestros-productos .container{
+    padding: 10px 12px;
+}
+
+#nuestros-productos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-productos p{
+    display: none;
+}
+
+#nuestros-productos .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/274827828_380291277263954_4391244340480003339_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeG2fEX6D18IkCQABJbV00cd590TglNYfijn3ROCU1h-KFZ4CLssz4NE2uhN9YqyZqnsHpXN3KxjhLX-YSvdscrV&_nc_ohc=XgM2eIVzhrYAX_HtsHa&_nc_ht=scontent.fmex11-2.fna&oh=03_AVJMthFpUTqvW43Esm23cbyUTVBzY1t2mJqglVoe9op2ew&oe=624F5A74");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://scontent.fmex11-4.fna.fbcdn.net/v/t1.15752-9/274724409_714387453318599_8655732054820206171_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeEexN2F9em13G1fempjJDe7bvcqZX_GGU1u9yplf8YZTQSzUadN0Kow8hCpcsuSpZdcxNXh67TzEvaeWix_e1Xg&_nc_ohc=UiamHLYpEokAX98AxNN&_nc_ht=scontent.fmex11-4.fna&oh=03_AVJIYXL_qWtAhHEyq8NPZUSty6AwasausM6P9LXYGwpzLQ&oe=62502E4A");
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/274337682_448180516992295_1872676619657539969_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeGNtnR1bm8YzWJz0Yev_T0inrprHrK2eT6eumsesrZ5PskretjbaubYfy47msl_WKme98sRUKnrQCtS9c6fO57r&_nc_ohc=F5PGNxqYoo0AX95I1eM&tn=ius6dudTlkeW7RCT&_nc_ht=scontent.fmex11-2.fna&oh=03_AVKSNguU12FaWsTz3IBFevV3czkDnvjcPZ0OgWaOAtv1dQ&oe=6250E00E");
+
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 300px 0px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 2vw;
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(248, 242, 242);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+
+    #somos-botella-al-mar .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-botella-al-mar .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-botella-al-mar h2{
+        margin-top: 0px;
+    }
+
+    #somos-botella-al-mar .img-container{
+        background-image: url("https://scontent.fmex11-4.fna.fbcdn.net/v/t1.15752-9/274832749_4772622666167177_8367073557497212425_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHoemheU4hnMiEmTOkbdCZ5wR5RowmSnTrBHlGjCZKdOnXJWlwU-1oGuhFt9Ke1J5qzCWXbE41j6mBsEs4vzCvm&_nc_ohc=4jwUQU7TamYAX94-j8H&_nc_ht=scontent.fmex11-4.fna&oh=03_AVIK6-TOGnnnTSL3ZEAGeMd4PXiiBLuE26OsElYzEZdF-A&oe=624F6E5B");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+    #nuestros-productos .productos{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-productos p{
+        display:flex;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-productos h2{
+        font-size: 2.0em;
+    }
+
+    #nuestros-productos h3{
+        margin-top: 0;
+    }
+
+    #nuestros-productos .carta{
+        padding: 50px;
+        background-size: 100% 600px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(248, 18, 171);
+        box-shadow: 2px 2px 10px rgb(231, 7, 119);
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/274240524_354213683249786_7035190676757029415_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeGR5VuGR6L7dNJUHUTYnvBURxHTGyYRefdHEdMbJhF599xs7IlUMEvBjbcsvcpoFxG8tmLiRMbGGuRQS9hzWwUw&_nc_ohc=K5w0hoK1tcUAX-rXJU-&_nc_ht=scontent.fmex11-2.fna&oh=03_AVJ1I5K4JxJALrIal2wCQ1HpOJWZnxU1A2B_1UR8LUJfjw&oe=62508950");
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.15752-9/274832752_1599823557041048_3951497877273090676_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeEr7fkX1Kj_dw8wdNqHL9ctkD_sL_z6gT6QP-wv_PqBPv1GfOLYlkhllH5_Amkz3bB_SXOUTxkolvGb3J05RYjv&_nc_ohc=j5wOCWALKg4AX-yDViG&_nc_ht=scontent.fmex11-2.fna&oh=03_AVKgLK3BDpItwb_oJPSh-cN8J9k4UnwmJ7q1tg9abvpABg&oe=624D8FA5");
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("https://scontent.fmex11-4.fna.fbcdn.net/v/t1.15752-9/274227636_490998009149532_3965649473498722495_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeHs1KsxdsOyc6m46I7Q_3UM8VgQL0d08-HxWBAvR3Tz4aBUSBjEB5eRXeXlGfo9WXVMPWaD6hUMsHradZ_YCd-c&_nc_ohc=Xfld6oRM9G0AX-hNsRo&_nc_ht=scontent.fmex11-4.fna&oh=03_AVLoI1xZUPd8cxJictGhnCrcs_DtHHHC03Gfg7764hHtYw&oe=624D4624");
+
+    }
+
+    #caracteristicas{
+        background-image: url("https://scontent.fmex11-4.fna.fbcdn.net/v/t1.15752-9/275312186_1427778370990621_7308016109822247658_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=ae9488&_nc_eui2=AeH55lfFQl5r-2CT-JNIaux0ziflJGUO9nzOJ-UkZQ72fGxCicwCatQ1RaDajl73c6HCUpJXQ4LXRCZM01-Z8JqT&_nc_ohc=J31k0QtSUWoAX8uwMUz&_nc_ht=scontent.fmex11-4.fna&oh=03_AVLAwyUSTFHvPfENv7KsIRuNcWn2LqxJxMUHLIRN8DnvDQ&oe=624E6E84");
+        background-repeat: no-repeat;
+        background-size: 500px 500px;
+        background-position: calc(100vw - 50px) 80px;
+    }
+
+    #caracteristicas .container{
+        text-align: initial;
+    }
+
+    #caracteristicas ul{
+        margin-left: 20px;
+    }
+
+    #final h2{
+        font-size: 3em;
+        
+    }
+
+    #final button{
+        font-size: 3em;
+    }
+
+    footer .container{
+        justify-content: flex-end;
+
+    }
+}
+@media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+        
+    }
+    .redes{
+
+    height: 200px;
+    background-color: black;
+    padding: 30px;}
+    .redes h2{
+        font-family: gabriola;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .sociales{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+    }
+    .btn-wsp{
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height:55px;
+        bottom: 30px;
+        right: 30px;
+        background: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+    .btn-wsp:hover{
+        text-decoration: none;
+        color:#0df053;
+        background: #fff;
+    }
+    .sociales li{
+        display: inline-block;
+    }
+    .sociales a{
+        padding: 20px;
+    }
+}
